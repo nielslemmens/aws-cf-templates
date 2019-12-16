@@ -1,4 +1,4 @@
-{
+"DefaultVPC" :{
   "Type" : "AWS::EC2::VPC",
   "Properties" : {
       "CidrBlock" : "172.20.0.0/16",
