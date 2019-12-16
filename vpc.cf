@@ -1,0 +1,10 @@
+{
+  "Type" : "AWS::EC2::VPC",
+  "Properties" : {
+      "CidrBlock" : "172.20.0.0/16",
+      "EnableDnsHostnames" : false,
+      "EnableDnsSupport" : true,
+      "InstanceTenancy" : "default",
+      "Tags" : [ {"Key": "Testkey", "Value": "Testvalue" } ]
+    }
+}
